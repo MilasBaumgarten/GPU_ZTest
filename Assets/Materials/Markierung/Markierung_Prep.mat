@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ZTestOutline
-  m_Shader: {fileID: 4800000, guid: e6aa13a34ffeb3a4db5fb58e6fd31317, type: 3}
+  m_Name: Markierung_Prep
+  m_Shader: {fileID: 4800000, guid: 53842e6a20a8ebf4c883b3b2cd30d121, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -65,7 +65,6 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineWidth: 0.099
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -75,6 +74,3 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColor: {r: 0, g: 0.029006006, b: 0.32352942, a: 1}
-    - _ZTestColor: {r: 0.44852942, g: 0, b: 0, a: 1}

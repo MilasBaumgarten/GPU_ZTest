@@ -16,9 +16,9 @@ Shader "Unlit/ZTest Outline Shader"
 	{
 		CGPROGRAM
 
-#pragma vertex vert
-#pragma fragment frag
-#include "UnityCG.cginc"
+		#pragma vertex vert
+		#pragma fragment frag
+		#include "UnityCG.cginc"
 
 		uniform float4 _NormalColor;
 
@@ -115,7 +115,7 @@ Shader "Unlit/ZTest Outline Shader"
 	{
 		v2f o;
 
-		float3 norm = normalize(v.normal);
+		//float3 norm = normalize(v.normal);
 		o.pos = UnityObjectToClipPos(v.vertex);
 
 		return o;
